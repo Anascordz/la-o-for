@@ -1,0 +1,13 @@
+<script>
+    var ano = parseInt(prompt("Digite o ano atual:"));
+    var nascimento = parseInt(prompt("Digite o ano de nascimento do usuário:"));
+    var nascimentoVelho = parseInt(prompt("Digite o ano de nascimento do mais velho:"));
+    var nascimentoNovo = parseInt(prompt("Digite o ano de nascimento do mais novo:"));
+    var idade, idadeVelho, idadeNovo;
+    idade = ano - nascimento;
+    idadeVelho = ano - nascimentoVelho;
+    idadeNovo = ano - nascimentoNovo;
+    document.write("Idade do usuário: "+idade+"<br>");
+    document.write("Idade do mais velho: "+idadeVelho+"<br>");
+    document.write("Idade do mais novo: "+idadeNovo+"<br>");
+</script>
